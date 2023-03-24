@@ -6,10 +6,8 @@ import Noticia from './Noticia'
 
 const ListadoNoticias = () => {
   const { noticias } = useNoticias()
+  // console.log(noticias)
 
-  console.log(Array.isArray(noticias));
-
-  console.log(noticias)
   return (
     <>
       <Typography
